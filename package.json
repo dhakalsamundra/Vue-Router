@@ -1,10 +1,11 @@
 {
-  "name": "ninja-jobs",
+  "name": "project-planner",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "runJson": "json-server --watch data/db.json"
   },
   "dependencies": {
     "core-js": "^3.6.5",
